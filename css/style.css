@@ -86,8 +86,7 @@ footer {
 /* personalizacion de boostrap */
 
 .nav-link.active {
-  color: black;
-  font-size: 1rem;
+  color: blue;
 }
 
 .nav-link {
