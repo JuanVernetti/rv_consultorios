@@ -122,6 +122,10 @@ i{
 
 
 
+.espacios{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 @media (min-width: 300px) and (max-width: 500px) {
   body {
