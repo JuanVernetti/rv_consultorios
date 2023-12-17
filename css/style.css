@@ -36,7 +36,6 @@ nav #logo {
 }
 
 .contenido div {
-  width: 1000px;
   text-align: center;
   justify-content: center;
   margin: auto;
@@ -44,7 +43,7 @@ nav #logo {
 }
 
 .texto p {
-  font-size: 20px;
+  font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
