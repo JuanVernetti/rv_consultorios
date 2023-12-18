@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +8,16 @@
 header {
   background-color: whitesmoke;
 }
-header .navbar {
+
+.navbar {
   background-color: #20bed8;
 }
+
 nav #logo {
-    width: 200px;
-    height: 100px;
-    border-radius: 20px;
-  }
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
 
 .publicidad #banner {
   width: 1920px;
@@ -38,7 +41,8 @@ nav #logo {
   margin: auto;
   border-radius: 1px;
 }
-.contenido .texto p {
+
+.texto p {
   font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -57,7 +61,8 @@ footer {
   padding: 20px;
   margin: 20px;
 }
-.formulario .formulario1 form input {
+
+.formulario1 form input {
   margin: 3px;
   width: 300px;
   height: 40px;
@@ -65,18 +70,19 @@ footer {
   text-align: center;
   border-style: none;
 }
-.formulario .formulario1 form button {
+.formulario1 form button {
   background-color: rgb(129, 218, 41);
   width: 200px;
   height: 40px;
   border-radius: 20px;
 }
 
-.nav-link {
-  color: #191919;
-}
 .nav-link.active {
   color: blue;
+}
+
+.nav-link {
+  color: #191919;
 }
 .nav-link:hover {
   color: whitesmoke;
@@ -102,13 +108,5 @@ i {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
-/*
-@media (min-width: 300px) and (max-width: 500px) {
-  body {
-    background-color: purple;
-  }
-}
-*/
 
 /*# sourceMappingURL=style.css.map */

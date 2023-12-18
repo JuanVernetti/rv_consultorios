@@ -1,140 +1,127 @@
-// Reset de estilos
+$color_1: antiquewhite;
+$color_2: blue;
+$color_3: #191919;
+$color_4: whitesmoke;
+$color_5: #25D366;
+$color_6: #DD2A7b;
+$color_7: #4267B2;
+$font-family_1: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+$background-color_1: whitesmoke;
+$background-color_2: #20bed8;
+$background-color_3: 535151;
+$background-color_4: rgb(188, 214, 188);
+$background-color_5: rgb(129, 218, 41);
+$border-color_1: rgb(18, 19, 19);
+
+/* PAGINA SOLICITUD */
+/* personalizacion de boostrap */
+/* Redes sociales */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  // Estilos del encabezado
-  header {
-    background-color: whitesmoke;
-  
-    // Estilos de la barra de navegación
-    .navbar {
-      background-color: #20bed8;
-  
-      // Estilos del logo en la barra de navegación
-      nav #logo {
-        width: 200px;
-        height: 100px;
-        border-radius: 20px;
-      }
-    }
-  }
-  
-  // Estilos de la publicidad
-  .publicidad #banner {
-    width: 1920px;
-    height: 1080px;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    image-rendering: auto;
-  }
-  
-  // Estilos del contenido principal
-  .contenido {
-    margin: 2rem;
-    padding: 2rem;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: rgb(18, 19, 19);
-  
-    // Estilos de los elementos dentro del contenido
-    div {
-      text-align: center;
-      justify-content: center;
-      margin: auto;
-      border-radius: 1px;
-    }
-  
-    // Estilos del texto dentro del contenido
-    .texto p {
-      font-size: 14px;
-      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    }
-  }
-  
-  // Estilos del pie de página
-  footer {
-    color: antiquewhite;
-    background-color: 535151;
-  }
-  
-  // Estilos de la página de solicitud
-  .formulario {
-    margin: 20px;
-    background-color: rgb(188, 214, 188);
-  
-    // Estilos del primer formulario
-    .formulario1 {
-      width: 40px;
-      padding: 20px;
-      margin: 20px;
-  
-      // Estilos de los elementos dentro del formulario
-      form {
-        input {
-          margin: 3px;
-          width: 300px;
-          height: 40px;
-          border-radius: 40px;
-          text-align: center;
-          border-style: none;
-        }
-  
-        button {
-          background-color: rgb(129, 218, 41);
-          width: 200px;
-          height: 40px;
-          border-radius: 20px;
-        }
-      }
-    }
-  }
-  
-  // Personalización de Bootstrap
-  .nav-link {
-    &.active {
-      color: blue;
-    }
-  
-    color: #191919;
-  
-    &:hover {
-      color: whitesmoke;
-    }
-  }
-  
-  // Estilos de los iconos
-  i {
-    font-size: 3rem;
-  }
-  
-  // Estilos de las redes sociales
-  .bi.bi-whatsapp:hover {
-    color: #25D366;
-  }
-  
-  .bi.bi-instagram:hover {
-    color: #DD2A7b;
-  }
-  
-  .bi.bi-facebook:hover {
-    color: #4267B2;
-  }
-  
-  // Espacios
-  .espacios {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  /*
-  @media (min-width: 300px) and (max-width: 500px) {
-    body {
-      background-color: purple;
-    }
-  }
-  */
-  
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-color: $background-color_1;
+}
+.navbar {
+	background-color: $background-color_2;
+}
+nav {
+	#logo {
+		width: 200px;
+		height: 100px;
+		border-radius: 20px;
+	}
+}
+.publicidad {
+	#banner {
+		width: 1920px;
+		height: 1080px;
+		text-align: center;
+		align-items: center;
+		margin: auto;
+		image-rendering: auto;
+	}
+}
+.contenido {
+	margin: 2rem;
+	padding: 2rem;
+	border: 1px solid;
+	border-radius: 20px;
+	border-color: $border-color_1;
+	div {
+		text-align: center;
+		justify-content: center;
+		margin: auto;
+		border-radius: 1px;
+	}
+}
+.texto {
+	p {
+		font-size: 14px;
+		font-family: $font-family_1;
+	}
+}
+footer {
+	color: $color_1;
+	background-color: $background-color_3;
+}
+.formulario {
+	margin: 20px;
+	background-color: $background-color_4;
+	.formulario1 {
+		width: 40px;
+		padding: 20px;
+		margin: 20px;
+	}
+}
+.formulario1 {
+	form {
+		input {
+			margin: 3px;
+			width: 300px;
+			height: 40px;
+			border-radius: 40px;
+			text-align: center;
+			border-style: none;
+		}
+		button {
+			background-color: $background-color_5;
+			width: 200px;
+			height: 40px;
+			border-radius: 20px;
+		}
+	}
+}
+.nav-link.active {
+	color: $color_2;
+}
+.nav-link {
+	color: $color_3;
+	&:hover {
+		color: $color_4;
+	}
+}
+i {
+	font-size: 3rem;
+}
+.bi.bi-whatsapp {
+	&:hover {
+		color: $color_5;
+	}
+}
+.bi.bi-instagram {
+	&:hover {
+		color: $color_6;
+	}
+}
+.bi.bi-facebook {
+	&:hover {
+		color: $color_7;
+	}
+}
+.espacios {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
