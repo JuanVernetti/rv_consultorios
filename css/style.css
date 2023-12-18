@@ -7,12 +7,10 @@
 header {
   background-color: whitesmoke;
 }
-
-.navbar {
+header .navbar {
   background-color: #20bed8;
 }
-
-nav #logo {
+header .navbar nav #logo {
   width: 200px;
   height: 100px;
   border-radius: 20px;
@@ -34,18 +32,15 @@ nav #logo {
   border-radius: 20px;
   border-color: rgb(18, 19, 19);
 }
-
 .contenido div {
   text-align: center;
   justify-content: center;
   margin: auto;
   border-radius: 1px;
 }
-
-.texto p {
+.contenido .texto p {
   font-size: 14px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 footer {
@@ -53,20 +48,16 @@ footer {
   background-color: 535151;
 }
 
-/* PAGINA SOLICITUD */
-
 .formulario {
   margin: 20px;
   background-color: rgb(188, 214, 188);
 }
-
 .formulario .formulario1 {
   width: 40px;
   padding: 20px;
   margin: 20px;
 }
-
-.formulario1 form input {
+.formulario .formulario1 form input {
   margin: 3px;
   width: 300px;
   height: 40px;
@@ -74,53 +65,40 @@ footer {
   text-align: center;
   border-style: none;
 }
-
-.formulario1 form button {
+.formulario .formulario1 form button {
   background-color: rgb(129, 218, 41);
   width: 200px;
   height: 40px;
   border-radius: 20px;
 }
 
-/* personalizacion de boostrap */
-
-.nav-link.active {
-  color: blue;
-}
-
 .nav-link {
   color: #191919;
 }
-
+.nav-link.active {
+  color: blue;
+}
 .nav-link:hover {
   color: whitesmoke;
 }
 
-i{
+i {
   font-size: 3rem;
 }
 
-
-
-
-
-/* Redes sociales */
-
-.bi.bi-whatsapp:hover{
+.bi.bi-whatsapp:hover {
   color: #25D366;
 }
 
-.bi.bi-instagram:hover{
+.bi.bi-instagram:hover {
   color: #DD2A7b;
 }
 
-.bi.bi-facebook:hover{
+.bi.bi-facebook:hover {
   color: #4267B2;
 }
 
-
-
-.espacios{
+.espacios {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -131,4 +109,6 @@ i{
     background-color: purple;
   }
 }
-*/  
+*/
+
+/*# sourceMappingURL=style.css.map */
