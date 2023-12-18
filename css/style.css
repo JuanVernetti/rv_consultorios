@@ -10,11 +10,11 @@ header {
 header .navbar {
   background-color: #20bed8;
 }
-header .navbar nav #logo {
-  width: 200px;
-  height: 100px;
-  border-radius: 20px;
-}
+nav #logo {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+  }
 
 .publicidad #banner {
   width: 1920px;
