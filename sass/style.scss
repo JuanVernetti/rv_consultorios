@@ -12,6 +12,7 @@ $background-color_3: 535151;
 $background-color_4: rgb(188, 214, 188);
 $background-color_5: rgb(129, 218, 41);
 $border-color_1: rgb(18, 19, 19);
+	
 
 /* PAGINA SOLICITUD */
 /* personalizacion de boostrap */
@@ -67,7 +68,9 @@ footer {
 	color: $color_1;
 	background-color: $background-color_3;
 }
+
 .formulario {
+
 	margin: 20px;
 	background-color: $background-color_4;
 	.formulario1 {
@@ -75,6 +78,7 @@ footer {
 		padding: 20px;
 		margin: 20px;
 	}
+
 }
 .formulario1 {
 	form {
